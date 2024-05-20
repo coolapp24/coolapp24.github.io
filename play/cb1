@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>COOL APP</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" href="/img/appicon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="COOL APP">
+</head>
+
+<body>
+
+  <center>
+
+    <br>
+
+    <a href="/">
+      <br>
+  <img src="/img/normalicon.png" alt="CBL" width="60">
+    </a>
+
+    <br><br><br><br><br>
+
+      <img src="/img/1del.png" alt="CBL" width="200">
+      <br><br>
+  COOL BEAT 1
+  <br><br>
+    <audio controlsList="nodownload" src="/audio/Beat_1_112423_ys.wav" controls></audio>
+    <br><br>
+    COOL BEAT 1 PT 2 FT YUNO MILES
+      <br><br>
+      <audio controlsList="nodownload" src="/audio/CB1/yuno.wav" controls></audio>
+    <br><br>
+    COOL BEAT 2
+      <br><br>
+      <audio controlsList="nodownload" src="/audio/CB1/2eork.wav" controls></audio>
+      <br><br>
+      COOL BEAT 3
+        <br><br>
+        <audio controlsList="nodownload" src="/audio/CB1/cool_beat_3.wav" controls></audio>
+        <br><br>
+        COOL BEAT 3 OG
+          <br><br>
+          <audio controlsList="nodownload" src="/audio/CB1/cool_beat_3og.wav" controls></audio>
+          <br><br>
+          COOL BEAT 4
+            <br><br>
+            <audio controlsList="nodownload" src="/audio/CB1/COOL_BEAT_4.wav" controls></audio>
+            <br><br>
+            COOL BEAT 4 PT 2 FT FORTYE
+              <br><br>
+              <audio controlsList="nodownload" src="/audio/CB1/4rtye.wav" controls></audio>
+              <br><br>
+              COOL BEAT 5
+                <br><br>
+                <audio controlsList="nodownload" src="/audio/CB1/rev5.wav" controls></audio>
+                <br>
+                Released on May 4th 2024
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
