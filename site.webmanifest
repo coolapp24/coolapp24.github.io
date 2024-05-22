@@ -1,4 +1,15 @@
 {
-    "display": "standalone"
-    "short_name": "COOL APP"
-}
+    "name": "COOL APP",
+    "short_name": "COOL APP",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/play/cb1.html",
+    "icons": [
+      {
+        "src": "https://cbl.cx/img/appicon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
