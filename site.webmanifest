@@ -1,4 +1,5 @@
 {
     "display": "standalone"
     "short_name": "COOL APP"
+    "start_url": "https://cbl.cx/play/cb1.html"
 }
