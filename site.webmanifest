@@ -1,0 +1,14 @@
+{
+    "name": "COOL APP",
+    "short_name": "COOL APP",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/a72274437y8ry37eduy8redueh378re.html",
+    "icons": [
+        {
+            "src": "https://s9.krakenfiles.com/uploads/22-06-2024/uSxv4wzheN/image.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
