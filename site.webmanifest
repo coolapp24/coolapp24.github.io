@@ -3,10 +3,10 @@
     "short_name": "COOL APP",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/a72274437y8ry37eduy8redueh378re.html",
+    "start_url": "/",
     "icons": [
         {
-            "src": "https://s9.krakenfiles.com/uploads/22-06-2024/uSxv4wzheN/image.png",
+            "src": "https://s6.krakenfiles.com/uploads/03-08-2024/TbtR06PHzr/image.png",
             "sizes": "192x192",
             "type": "image/png"
         }
