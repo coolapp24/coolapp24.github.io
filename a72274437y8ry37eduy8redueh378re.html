@@ -3,84 +3,106 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/png" href="https://s2.krakenfiles.com/uploads/03-08-2024/q6JwLkxyyj/image.png">
     <title>COOL APP</title>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="https://cbl.cx/src/style.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="apple-touch-icon" href="https://s9.krakenfiles.com/uploads/03-08-2024/W2L2zyyeeI/image.png">
+    <link rel="apple-touch-icon" href="https://s9.krakenfiles.com/uploads/22-06-2024/uSxv4wzheN/image.png">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover, user-scalable=no" />
-</head>
+  </head>
 <body>
 
-
-<div class="time time-placeholder" style="position:fixed;">&nbsp;</div><br>
-<div class="placeholder" style="position:fixed;">COOL APP</div><br>
-<div class="placeholder" style="position:fixed;">iOS APP OTW</div><br>
-<div class="placeholder" style="position:fixed;"><a href="mailto:prodysgroup@gmail.com&subject=COOL APP">CONTACT</a></div>
+  <div class="time time-placeholder" style="position:fixed;">&nbsp;</div><br>
+    <div class="placeholder" style="position:fixed;">CB2 8/24/24</div><br>
+  <div class="placeholder" style="position:fixed;">COOL APP</div><br>
+  <div class="placeholder" style="position:fixed;"><a href="mailto:prodysgroup@gmail.com&subject=COOL APP">CONTACT</a></div>
+<br>
+<h4>New Releases</h4>
+<div class="custom-scrollbar">
+  <span class="product">
+    <img type="button" class="collapsible" src="https://s2.krakenfiles.com/uploads/20-08-2024/JHMD36bAVV/image.png" alt="FILE NOT FOUND" width="200">
+    <div class="content">
+  <p style="color:black;">LOCATION by PRODYSGROUP & LIL WAYNE</p>
+  <audio controlsList="nodownload" src="https://s2.krakenfiles.com/uploads/20-08-2024/Pt46RqIEeP/music.m4a" controls></audio><br><br>
+    </div>
+    <p class="bottom-right" style="opacity: 0;">LOCATION</p>
+  </span>
+  </div>
+<h4>Community Music</h4>
+<div class="custom-scrollbar">
   
-<br><br><br><br>
-  <center>
-<h4 style="color:black;">PLEASE RE INSTALL COOL APP AT CBL.CX</h4>
-  </center>
-</body>
-</html>
+  <span class="product">
+    <img type="button" class="collapsible" src="https://s2.krakenfiles.com/uploads/20-08-2024/JHMD36bAVV/image.png" alt="FILE NOT FOUND" width="200">
+    <div class="content">
+  <p style="color:black;">LOCATION by PRODYSGROUP & LIL WAYNE</p>
+  <audio controlsList="nodownload" src="https://s2.krakenfiles.com/uploads/20-08-2024/Pt46RqIEeP/music.m4a" controls></audio><br><br>
+    </div>
+    <p class="bottom-right" style="opacity: 0;">LOCATION</p>
+  </span>
+</div>
+<h4>Community Remixes</h4>
+<div class="custom-scrollbar">
+  <span class="product">
+    <img type="button" class="collapsible" src="https://vultures.yeezy.com/cdn/shop/files/favicon-32x32.png?crop=center&height=32&v=1703712063&width=32" alt="FILE NOT FOUND" width="200">
+    <div class="content">
+  <p style="color:black;">PLACEHOLDER TRACK</p>
+  <audio controlsList="nodownload" src="/" controls></audio><br><br>
+    </div>
+    <p class="bottom-right" style="opacity: 0;">PLACEHOLDER</p>
+  </span>
+</div>
 
-  
-<br><br>
+<script type="text/javascript">
+  window.onload = function() {
+      setInterval(function(){
+          var date = new Date();
+          var displayDate = date.toLocaleDateString();
+          var displayTime = date.toLocaleTimeString();
 
-  <script>const formatTime=date=>`${date.getDate()} ${date.getMonth()+1} ${date.getFullYear()} ${date.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit"}).split(" ")[0]+""+date.getSeconds().toString().padStart(2,"0").slice(0,0)}`;function replaceTime(){const times=document.getElementsByClassName("time");for(let i=0;i<times.length;i++)times[i].textContent=formatTime(new Date)}replaceTime(),setInterval(replaceTime,50);
-  //# sourceMappingURL=/cdn/shop/t/73/assets/time.js.map?v=11454360075555554221722721988</script>
+          document.getElementById('datetime').innerHTML = displayTime;
+      }, 1000); // 1000 milliseconds = 1 second
+  }
 
-  <script type="text/javascript">
-    window.onload = function() {
-        setInterval(function(){
-            var date = new Date();
-            var displayDate = date.toLocaleDateString();
-            var displayTime = date.toLocaleTimeString();
+  // When the user clicks on <div>, open the popup
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
 
-            document.getElementById('datetime').innerHTML = displayTime;
-        }, 1000); // 1000 milliseconds = 1 second
-    }
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
 
-    // When the user clicks on <div>, open the popup
-    function myFunction() {
-      var popup = document.getElementById("myPopup");
-      popup.classList.toggle("show");
-    }
-
-          var coll = document.getElementsByClassName("collapsible");
-          var i;
-          for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var content = this.nextElementSibling;
-              if (content.style.display === "block") {
-                content.style.display = "none";
-              } else {
-                content.style.display = "block";
-              }
-            });
-          }
-
-          function search() {
-            let filter = document.getElementById('find').value.toUpperCase();
-            let item = document.querySelectorAll('.product');
-            let l = document.getElementsByTagName('p');
-            for (var i = 0; i <= l.length; i++) {
-              let a = item[i].getElementsByTagName('p')[0];
-              let value = a.innerHTML || a.innerText || a.textContent;
-              if (value.toUpperCase().indexOf(filter) > -1) {
-                item[i].style.display = "";
-              } else {
-                item[i].style.display = "none";
-              }
+        function search() {
+          let filter = document.getElementById('find').value.toUpperCase();
+          let item = document.querySelectorAll('.product');
+          let l = document.getElementsByTagName('p');
+          for (var i = 0; i <= l.length; i++) {
+            let a = item[i].getElementsByTagName('p')[0];
+            let value = a.innerHTML || a.innerText || a.textContent;
+            if (value.toUpperCase().indexOf(filter) > -1) {
+              item[i].style.display = "";
+            } else {
+              item[i].style.display = "none";
             }
           }
-        </script>
+        }
+      </script>
+   <script>const formatTime=date=>`${date.getDate()} ${date.getMonth()+1} ${date.getFullYear()} ${date.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit"}).split(" ")[0]+""+date.getSeconds().toString().padStart(2,"0").slice(0,0)}`;function replaceTime(){const times=document.getElementsByClassName("time");for(let i=0;i<times.length;i++)times[i].textContent=formatTime(new Date)}replaceTime(),setInterval(replaceTime,50);
+    //# sourceMappingURL=/cdn/shop/t/73/assets/time.js.map?v=11454360075555554221722721988</script>
 <style>
-
   :root { font-family: 'Inter', sans-serif; }
   @supports (font-variation-settings: bold) {
     :root { font-family: 'Inter var', sans-serif; }
@@ -88,12 +110,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-
-  
   a{
     color:black;
   }
+
   /* Popup container */
   .popup {
     position: relative;
@@ -104,7 +124,7 @@
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 50px;
+    width: 160px;
     background-color: #ddd;
     border-color: #010101;
     color: #010101;
@@ -112,9 +132,9 @@
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
-    z-index: 1;
-    bottom: 3%;
-    left: 50%;
+    y-index: 1;
+    bottom: -120%;
+    left: -180%;
     margin-left: -75px;
   }
 
@@ -136,10 +156,6 @@
     to {opacity:1 ;}
   }
 
-  span {
-    display: inline-block;
-  }
-
   display: inline-block;
         .custom-scrollbar {
           overflow-x: scroll;
@@ -148,6 +164,7 @@
         }
 
         p {
+          color: rgb(0, 0, 0);
         }
 
         body {
@@ -157,9 +174,10 @@
         .product {
           position: relative;
           text-align: left;
+          color: white;
         }
 
-        .bottom-left {
+        .bottom-right {
           position: absolute;
           bottom: 8px;
           left: 16px;
@@ -186,6 +204,6 @@
           overflow: hidden;
           transition: max-height 0.2s ease-out;
         }
-</style>
+      </style>
 </body>
 </html>
