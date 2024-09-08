@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="https://s2.krakenfiles.com/uploads/03-08-2024/q6JwLkxyyj/image.png">
+    <title>COOL APP</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover, user-scalable=no" />
+</head>
+<body>
+
+  <p><a class="time time-placeholder">&nbsp;</a><br>
+  COOL APP<br>
+  <a href="mailto:prodysgroup@gmail.com">CONTACT</a></p>
+
+<br><br>
+  <video height="150" controls>
+    <source src="/archive/demo.mp4" type="video/mp4">
+VIDEO
+  </video>
+  <h4>COOL APP iOS ARCHIVE<br><br><br>
+    FRONTEND <a href="/archive/COOLAPP-main.zip" download>DOWNLOAD</a>
+    <br>
+    BACKEND <a href="/archive/COOLAPP_Server-main.zip" download>DOWNLOAD</a>
+    <br><br>
+    
+</h4>
+</body>
+</html>
+  <script>const formatTime=date=>`${date.getDate()} ${date.getMonth()+1} ${date.getFullYear()} ${date.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit"}).split(" ")[0]+""+date.getSeconds().toString().padStart(2,"0").slice(0,0)}`;function replaceTime(){const times=document.getElementsByClassName("time");for(let i=0;i<times.length;i++)times[i].textContent=formatTime(new Date)}replaceTime(),setInterval(replaceTime,50);
+  //# sourceMappingURL=/cdn/shop/t/73/assets/time.js.map?v=11454360075555554221722721988</script>
+
+  <script type="text/javascript">
+    window.onload = function() {
+        setInterval(function(){
+            var date = new Date();
+            var displayDate = date.toLocaleDateString();
+            var displayTime = date.toLocaleTimeString();
+
+            document.getElementById('datetime').innerHTML = displayTime;
+        }, 1000); // 1000 milliseconds = 1 second
+    }
+
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+
+          function search() {
+            let filter = document.getElementById('find').value.toUpperCase();
+            let item = document.querySelectorAll('.product');
+            let l = document.getElementsByTagName('p');
+            for (var i = 0; i <= l.length; i++) {
+              let a = item[i].getElementsByTagName('p')[0];
+              let value = a.innerHTML || a.innerText || a.textContent;
+              if (value.toUpperCase().indexOf(filter) > -1) {
+                item[i].style.display = "";
+              } else {
+                item[i].style.display = "none";
+              }
+            }
+          }
+        </script>
+<style>
+
+  :root { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: bold) {
+    :root { font-family: 'Inter var', sans-serif; }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+  body{
+      background-color:black;
+  }
+  a{
+    color:white;
+  }
+
+  p{
+    color:white;
+  }
+
+  h4{
+    color:white;
+  }
+  
+  /* Popup container */
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 50px;
+    background-color: #ddd;
+    border-color: #010101;
+    color: #010101;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 3%;
+    left: 50%;
+    margin-left: -75px;
+  }
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  display: inline-block;
+        .custom-scrollbar {
+          overflow-x: scroll;
+          scrollbar-width: thin;
+          scrollbar-color: white white;
+        }
+
+        p {
+        }
+
+        body {
+          padding: 30px;
+        }
+
+        .product {
+          position: relative;
+          text-align: left;
+        }
+
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+
+        .collapsible:after {
+          content: '';
+          /* Unicode character for "plus" sign (+) */
+        }
+
+        .active:after {
+          content: "";
+          /* Unicode character for "minus" sign (-) */
+        }
+
+        .collapsible {
+          cursor: pointer;
+          border: none;
+          outline: none;
+        }
+
+        .content {
+          display: none;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+</style>
+</body>
+</html>
